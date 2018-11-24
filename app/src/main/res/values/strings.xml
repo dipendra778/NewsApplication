@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NAST News</string>
+    <string name="news_app">News App</string>
+    <string name="an_android_app">An Android Application</string>
+    <string name="copyright">CopyRight@JayJoshi(2018)</string>
+    <string name="jay_name">Jay Raj Joshi</string>
+    <string name="jay_roll">15070232</string>
+    <string name="tape_name">Tapendra Singh</string>
+    <string name="tape_roll">15070245</string>
+    <string name="bharat_name">Bharat Bhat</string>
+    <string name="bharat_roll">15070225</string>
+    <string name="name_nirajan">Nirajan Hamal</string>
+    <string name="nirajan_roll">15070237</string>
+    <string name="news_nast">Nast News</string>
+
+    <string name="group_membe">Jay Bharat Tapendra Nirajan</string>
+</resources>

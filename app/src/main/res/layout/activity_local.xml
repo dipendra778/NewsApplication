@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocalActivity">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0ffff">
+
+        <RelativeLayout
+            android:id="@+id/news_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/news_radiodhan"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/radiodhangahi" />
+
+                <ImageView
+                    android:id="@+id/news_dinesh"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/dinesh" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/news_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news_a">
+
+            <LinearLayout
+                android:id="@+id/second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/news_dhangadhi"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/dhangadhi" />
+
+                <ImageView
+                    android:id="@+id/news_paschim"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/paschim" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/news_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news_b">
+
+            <LinearLayout
+                android:id="@+id/third"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/news_sidharekha"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/sidharekha" />
+
+                <ImageView
+                    android:id="@+id/news_radiodoti"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/doti" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/news_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news_c">
+
+            <LinearLayout
+                android:id="@+id/fourth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:id="@+id/news_amargadhi"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/amargadhi" />
+
+                <ImageView
+                    android:id="@+id/news_saugat"
+                    android:layout_width="320dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="@dimen/dp_30"
+                    android:layout_weight="1"
+                    android:background="@drawable/saugat" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
